@@ -8,9 +8,8 @@ class CompoundInterest:
     self.i = i
     self.t = t
     self.n = n
-
   def calculate(self):
-    amount = self.p * (1 + self.i/self.n) ** (self.n*self.t)
-    return amount
+    return self.p * (1 + self.i/self.n) ** (self.n*self.t)
+    
     
 
